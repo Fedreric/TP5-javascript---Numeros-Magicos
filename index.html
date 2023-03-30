@@ -10,6 +10,7 @@
       integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/style.css" />
     <title>Numeros Magicos</title>
   </head>
@@ -19,24 +20,26 @@
       <section class="container">
         <h1>Numeros Magicos</h1>
         <hr />
-        <div class="container py-3">
-          <button class="btn btn-dark" onclick="generarNumAleatorio()">
-            Comenzar el Juego
-          </button>
-          <form id="formulario">
-            <div class="mb-3">
-              <label class="form-label pt-3">Ingrese un numero del 1 al 50</label>
-              <input
-                type="number"
-                id="numero"
-                class="form-control"
-                placeholder="Ej: 10"
-                required
-              />
-            </div>
-            <button type="submit" class="btn btn-dark">Enviar numero</button>
-          </form>
-        </div>
+        <button class="btn btn-dark" onclick="generarNumAleatorio()">
+          Comenzar el Juego
+        </button>
+        <form id="formulario">
+          <div class="mb-3">
+            <label class="form-label pt-3">Ingrese un numero del 1 al 50</label>
+            <input
+              type="number"
+              id="numero"
+              class="form-control"
+              placeholder="Ej: 10"
+              required
+            />
+          </div>
+          <button type="submit" class="btn btn-dark">Enviar numero</button>
+        </form>
+        <article class="container pt-4">
+          <div class="row justify-content-center" id="contenedorNumIngresados">
+          </div>
+        </article>
       </section>
     </main>
     <footer class="bg-dark text-light py-3 text-center">

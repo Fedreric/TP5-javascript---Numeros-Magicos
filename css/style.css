@@ -6,3 +6,17 @@ body{
 main{
     flex-grow: 1;
 }
+
+.caja-up{
+    margin: 2px;
+    padding: 10px;
+    border: 1px solid orange;
+}
+.caja-down{
+    margin: 2px;
+    padding: 10px;
+    border: 1px solid red;
+}
+.caja-win{
+    border: 1px solid green;
+}
