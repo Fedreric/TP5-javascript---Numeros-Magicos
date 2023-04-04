@@ -22,5 +22,8 @@ git clone https://github.com/Fedreric/TP5-javascript---Numeros-Magicos.git
 - Ingresa un numero del 1 al 50
 - Utiliza los indicadores de mayor y menor para encontrarlo
 
+## Sitio Web 💻
+https://numeros-magicos-fede39i.netlify.app/
+
 ## Autor 👨‍💻
  Federico Luciano Ledesma [GitHub](https://github.com/Fedreric)
